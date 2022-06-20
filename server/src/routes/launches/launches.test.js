@@ -1,7 +1,7 @@
 const request = require('supertest');
 const app = require('../../app');
 const { mongoConnect, mongoDisconnect } = require('../../services/mongo');
-const { loadLaunchData } = require('./models/launches.model');
+const { loadLaunchData } = require('../../models/launches.model');
 
 describe('Testing launches Api', () => {
 
